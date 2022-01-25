@@ -36,3 +36,41 @@
     transform: rotate(360deg);
   }
 }
+
+table {
+  border-spacing: 0;
+  border-collapse: separate;
+  margin-top: 30px;
+}
+
+.contactsTable {
+  display: flex;
+  justify-content: center;
+}
+
+th,
+td {
+  border: 1px black solid;
+}
+
+th {
+  width: 120px;
+}
+
+.btns {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  width: 140px;
+  height: 40px;
+}
+
+.deleteBtn {
+  width: 80px;
+  height: 30px;
+}
